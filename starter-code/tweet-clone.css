@@ -1,0 +1,66 @@
+.container{
+  width: 850px;
+  height: 300px;
+  margin: 0;
+  display: block;
+  font-family: Helvetica;
+  border: 2px solid rgb(225,232,237);
+  border-radius: 5px;
+}
+.TweetHeader{
+  position: relative;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 45px;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+.followbutton{
+  border-radius: 5px;
+  border: 2px solid rgb(85, 172, 238);
+  position: relative;
+  float: right;
+  color: rgb(85, 172, 238);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.followbutton h1{
+  display: inline;
+}
+.TweetAuthor{
+  margin-top: 2px
+  margin-bottom: 0px;
+  line-height: 0;
+  white-space: nowrap;
+  word-wrap: normal;
+  font-weight: inherit;
+  color: rgb(0, 0, 0);
+}
+.TweetAuthor h1{
+  display: inline;
+}
+.ProfilePicture{
+  float: left;
+  padding-right: 15px;
+}
+.TweetText{
+  position: relative;
+  white-space: nowrap;
+  margin-top: : 10px
+}
+.TweetActions p{
+  display: inline;
+}
+.TweetMetaDataLine{
+  color: rgb(101, 116, 127);
+  font-size: 21px;
+}
+.TweetActions{
+  color: rgb(105, 120, 130);
+  font-size: 21px;
+}
+.TweetBody{
+  font-size: 24px;
+}
